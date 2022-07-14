@@ -34,12 +34,6 @@ const webpackConfig = merge(baseWebpackConfig, {
     new webpack.DefinePlugin({
       'process.env': env
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
-      sourceMap: true
-    }),
     // extract css into its own file
     new ExtractTextPlugin({
       filename: utils.assetsPath('css/[name].[contenthash].css')
@@ -100,16 +94,16 @@ const webpackConfig = merge(baseWebpackConfig, {
     ]),
     // service worker caching
     new SWPrecacheWebpackPlugin({
-      cacheId: 'dnd-helper',
+      cacheId: 'dndHelperOld',
       filename: 'service-worker.js',
       staticFileGlobs: [
-        'dist/**/*.{js,html,css}',
-        'dist/static/img/**/*.png',
-        'dist/static/data/**/*.json',
-        'dist/static/css/**/*.{eot,svg,ttf,woff}'
+        'docs/**/*.{js,html,css}',
+        'docs/static/img/**/*.png',
+        'docs/static/data/**/*.json',
+        'docs/static/css/**/*.{eot,svg,ttf,woff}'
       ],
       minify: true,
-      stripPrefix: 'dist/',
+      stripPrefix: 'docs/',
       runtimeCaching: [{
         urlPattern: /^https:\/\/fonts\.googleapis\.com\//,
         handler: 'cacheFirst'

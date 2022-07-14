@@ -1,7 +1,7 @@
 'use strict'
 
 const fs = require('fs')
-const UglifyJS = require('uglify-es')
+const UglifyJS = require('uglify-js')
 
 module.exports = function(filePath) {
   const code = fs.readFileSync(filePath, 'utf-8')

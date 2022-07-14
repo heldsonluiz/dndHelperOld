@@ -2,15 +2,15 @@
   "lang": "pt-br",
   "name": "D&D 5e Helper",
   "display": "standalone",
-  "start_url": "/dnd-helper/",
+  "start_url": "/dndHelperOld/",
   "short_name": "D&D Helper",
   "description": "A simply app to help in yours D&D sessions",
   "icons": [{
-    "src": "/dnd-helper/static/img/icons/android-chrome-192x192.png",
+    "src": "/dndHelperOld/static/img/icons/android-chrome-192x192.png",
     "type": "image/png",
     "sizes": "192x192"
   }, {
-    "src": "/dnd-helper/static/img/icons/android-chrome-512x512.png",
+    "src": "/dndHelperOld/static/img/icons/android-chrome-512x512.png",
     "type": "image/png",
     "sizes": "512x512"
   }],
