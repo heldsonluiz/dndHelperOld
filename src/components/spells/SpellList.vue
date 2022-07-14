@@ -7,18 +7,18 @@
     </v-slide-y-transition>
 
     <v-slide-y-transition hide-on-leave leave-absolute>
-      <loading v-show="loadingSpells"></loading>
+      <loading v-if="loadingSpells"></loading>
     </v-slide-y-transition>
 
-    <transition-group name="appear" tag="div" class="layout row wrap">
+    <transition-group name="appear" tag="div" class="layout row wrap" v-if="!loadingSpells">
       <spell v-for="item in computedSpells" :key="item.id" @filterClass="doFilterClass" @favorite="doFavorite"
         :spell="item" class="appear">
       </spell>
     </transition-group>
 
-    <v-flex pt-3 class="text-xs-center">
+    <v-flex pt-3 class="text-xs-center" v-if="!loadingSpells">
       <v-pagination v-show="this.numOfPages >= 1" circle v-model="pagination.currentPage" :length="this.numOfPages"
-        :total-visible="5">
+        :total-visible="6">
       </v-pagination>
     </v-flex>
   </v-flex>
@@ -47,11 +47,14 @@ export default {
 
   watch: {
     'pagination.currentPage' () {
-      this.$vuetify.goTo('#spells__list', {
-        duration: 300,
-        offset: -100,
-        easing: 'easeInOutCubic'
-      })
+      this.loadingSpells = true
+      setTimeout(() => {
+        this.$vuetify.goTo(0, {
+          duration: 500,
+          easing: 'easeInOutCubic'
+        })
+        this.loadingSpells = false
+      }, 500)
     }
   },
 
@@ -154,7 +157,7 @@ export default {
     },
 
     computedSpells () {
-      const list = this.filteredList
+      let list = this.filteredList
       if (this.offset > list.length) {
         this.setPage(this.numOfPages)
       }
@@ -163,10 +166,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-  
-
-</style>
-

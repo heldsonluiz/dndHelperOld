@@ -6,7 +6,7 @@
       <v-toolbar-side-icon>
         <v-btn icon id="back" style="margin-top:0; padding-top:0">
           <v-icon @click="$router.go(-1)">keyboard_arrow_left</v-icon>
-        </v-btn>        
+        </v-btn>
       </v-toolbar-side-icon>
       <v-toolbar-title>{{ this.$route.name }}</v-toolbar-title>
     </v-toolbar>
@@ -17,9 +17,21 @@
     </v-slide-y-transition>
 
 
-    <v-bottom-nav app color="grey lighten-4" :value="true">
-      <v-btn v-for="item in navLinks" :key="item.id" :value="item.name" :to="item.target" :id="item.name">
-        <v-icon color="light-blue darken-2" :class="item.icon" fab flat></v-icon>
+    <v-bottom-nav
+      :value="true"
+      app
+    >
+      <v-btn v-for="item in navLinks"
+        :key="item.id"
+        :value="item.name"
+        :to="item.target"
+        :id="item.name"
+        v-ripple="{ center: true }"
+        color="light-blue darken-2"
+        flat
+      >
+        <span class="navigation-text">{{item.name}}</span>
+        <v-icon :class="item.icon"></v-icon>
       </v-btn>
     </v-bottom-nav>
 
@@ -35,8 +47,8 @@ export default {
       slide: 'left',
       navLinks: [
         { name: 'itens', target: '/itens', icon: 'ico-chest' },
-        { name: 'magias', target: '/spells', icon: 'ico-crystal' },
         { name: 'home', target: '/', icon: 'ico-castle' },
+        { name: 'magias', target: '/spells', icon: 'ico-crystal' },
         // { name: 'dice roller', target: '/dice-roller', icon: 'ico-dice' },
         // { name: 'turn tracker', target: '/turn-tracker', icon: 'ico-death' }
       ]
@@ -55,10 +67,21 @@ export default {
   padding: 0 !important
 }
 
+.v-bottom-nav {
+  height: 70px !important;
+}
+
 .v-bottom-nav .v-btn {
   min-width: 60px;
   padding: 14px 12px 10px;
   opacity: 1;
+}
+
+.v-bottom-nav .v-btn .navigation-text {
+  text-transform: uppercase;
+  padding: 3px 0px;
+  font-size: 13px;
+  font-weight: bolder;
 }
 
 .v-btn--active:before,
