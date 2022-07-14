@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ico-"]:before,
+[class*=" ico-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-ranged:before {
+  content: "\61";
+}
+.ico-armor:before {
+  content: "\62";
+}
+.ico-backpack:before {
+  content: "\63";
+}
+.ico-bomb:before {
+  content: "\64";
+}
+.ico-wizard:before {
+  content: "\65";
+}
+.ico-bottle:before {
+  content: "\66";
+}
+.ico-dice:before {
+  content: "\67";
+}
+.ico-wheel:before {
+  content: "\69";
+}
+.ico-weight:before {
+  content: "\6a";
+}
+.ico-map:before {
+  content: "\68";
+}
+.ico-death:before {
+  content: "\6b";
+}
+.ico-crystal:before {
+  content: "\6c";
+}
+.ico-tower:before {
+  content: "\6e";
+}
+.ico-thinking:before {
+  content: "\6f";
+}
+.ico-crown:before {
+  content: "\6d";
+}
+.ico-component:before {
+  content: "\70";
+}
+.ico-helmet:before {
+  content: "\71";
+}
+.ico-helping:before {
+  content: "\72";
+}
+.ico-sword:before {
+  content: "\73";
+}
+.ico-money:before {
+  content: "\74";
+}
+.ico-distance:before {
+  content: "\75";
+}
+.ico-bow:before {
+  content: "\76";
+}
+.ico-box:before {
+  content: "\77";
+}
+.ico-dumbbell:before {
+  content: "\78";
+}
+.ico-ninja:before {
+  content: "\79";
+}
+.ico-paper:before {
+  content: "\7a";
+}
+.ico-dust:before {
+  content: "\41";
+}
+.ico-brain:before {
+  content: "\42";
+}
+.ico-castle:before {
+  content: "\43";
+}
+.ico-exchange:before {
+  content: "\44";
+}
+.ico-papyrus:before {
+  content: "\45";
+}
+.ico-poison:before {
+  content: "\46";
+}
+.ico-feather:before {
+  content: "\47";
+}
+.ico-chest:before {
+  content: "\48";
+}
+.ico-clock:before {
+  content: "\49";
+}
+.ico-fire:before {
+  content: "\4a";
+}
+.ico-settings:before {
+  content: "\4b";
+}
+.ico-shield:before {
+  content: "\4c";
+}
+.ico-meele:before {
+  content: "\4d";
+}
+.ico-coin:before {
+  content: "\4e";
+}
+.ico-coins:before {
+  content: "\4f";
+}
+.ico-hammer:before {
+  content: "\50";
+}
+.ico-spell-book:before {
+  content: "\51";
+}
+.ico-martial-arts:before {
+  content: "\52";
+}
+.ico-hourglass:before {
+  content: "\53";
+}
+.ico-star:before {
+  content: "\54";
+}
+.ico-star-border:before {
+  content: "\55";
+}
+.ico-helmet-heavy:before {
+  content: "\56";
+}
+.ico-helmet-light:before {
+  content: "\57";
+}
+.ico-helmet-medium:before {
+  content: "\58";
+}
+.ico-arrow:before {
+  content: "\59";
+}
+.ico-axes:before {
+  content: "\5a";
+}
+.ico-joker:before {
+  content: "\30";
+}
+.ico-windmill:before {
+  content: "\31";
+}

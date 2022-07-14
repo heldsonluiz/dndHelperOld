@@ -1,0 +1,371 @@
+[{
+    "name": "Adaga",
+    "value": "2 po",
+    "dice": "1d4",
+    "damage": "perfurante",
+    "weight": "0,5 kg",
+    "properties": "Acuidade, leve, arremesso (distância 6/18)",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Azagaia",
+    "value": "5 pp",
+    "dice": "1d6",
+    "damage": "perfurante",
+    "weight": "1 kg",
+    "properties": "Arremesso (distância 9/36)",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Bordão",
+    "value": "2 pp",
+    "dice": "1d6",
+    "damage": "concussão",
+    "weight": "2 kg",
+    "properties": "Versátil (1d8)",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Clava Grande",
+    "value": "2 pp",
+    "dice": "1d8",
+    "damage": "concussão",
+    "weight": "5 kg",
+    "properties": "Pesada, duas mãos",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Foice Curta",
+    "value": "1 po",
+    "dice": "1d4",
+    "damage": "cortante",
+    "weight": "1 kg",
+    "properties": "Leve",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Lança",
+    "value": "1 po",
+    "dice": "1d6",
+    "damage": "perfurante",
+    "weight": "1,5 kg",
+    "properties": "Arremesso (distância 6/18), versátil (1d8)",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Maça",
+    "value": "5 po",
+    "dice": "1d6",
+    "damage": "concussão",
+    "weight": "2 kg",
+    "properties": "",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Machadinha",
+    "value": "5 po",
+    "dice": "1d6",
+    "damage": "cortante",
+    "weight": "1 kg",
+    "properties": "Leve, arremesso (distância 6/18)",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Martelo Leve",
+    "value": "2 po",
+    "dice": "1d4",
+    "damage": "concussão",
+    "weight": "1 kg",
+    "properties": "Leve, arremesso (distância 6/18)",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Porrete",
+    "value": "1 pp",
+    "dice": "1d4",
+    "damage": "concussão",
+    "weight": "1 kg",
+    "properties": "Leve",
+    "type": "simples",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Arco Curto",
+    "value": "25 po",
+    "dice": "1d6",
+    "damage": "perfurante",
+    "weight": "1 kg",
+    "properties": "Munição (distância 24/96), duas mãos",
+    "type": "simples",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Beste Leve",
+    "value": "25 po",
+    "dice": "1d8",
+    "damage": "perfurante",
+    "weight": "2,5 kg",
+    "properties": "Munição (distância 24/96), recarga, duas mãos",
+    "type": "simples",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Dardo",
+    "value": "5 pc",
+    "dice": "1d4",
+    "damage": "perfurante",
+    "weight": "0,1 kg",
+    "properties": "Acuidade, arremesso (distância 6/18)",
+    "type": "simples",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Funda",
+    "value": "1 pp",
+    "dice": "1d4",
+    "damage": "concussão",
+    "weight": "–",
+    "properties": "Munição (distância 9/36)",
+    "type": "simples",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Alabarda",
+    "value": "20 po",
+    "dice": "1d10",
+    "damage": "cortante",
+    "weight": "3 kg",
+    "properties": "Pesada, alcance, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Cimitarra",
+    "value": "25 po",
+    "dice": "1d6",
+    "damage": "cortante",
+    "weight": "1,5 kg",
+    "properties": "Acuidade, leve",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Chicote",
+    "value": "2 po",
+    "dice": "1d4",
+    "damage": "cortante",
+    "weight": "1,5 kg",
+    "properties": "Acuidade, alcance",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Espada Curta",
+    "value": "10 po",
+    "dice": "1d6",
+    "damage": "perfurante",
+    "weight": "1 kg",
+    "properties": "Acuidade, leve",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Espada Grande",
+    "value": "50 po",
+    "dice": "2d6",
+    "damage": "cortante",
+    "weight": "3 kg",
+    "properties": "Pesada, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Espada Longa",
+    "value": "15 po",
+    "dice": "1d8",
+    "damage": "cortante",
+    "weight": "1,5 kg",
+    "properties": "Versátil (1d10)",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Glaive",
+    "value": "20 po",
+    "dice": "1d10",
+    "damage": "cortante",
+    "weight": "3 kg",
+    "properties": "Pesada, alcance, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Lança de Montaria",
+    "value": "10 po",
+    "dice": "1d12",
+    "damage": "perfurante",
+    "weight": "3 kg",
+    "properties": "Alcance, especial",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Lança Longa",
+    "value": "5 po",
+    "dice": "1d10",
+    "damage": "perfurante",
+    "weight": "4 kg",
+    "properties": "Pesada, alcance, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Maça Estrela",
+    "value": "15 po",
+    "dice": "1d8",
+    "damage": "perfurante",
+    "weight": "2 kg",
+    "properties": "",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Machado Grande",
+    "value": "30 po",
+    "dice": "1d12",
+    "damage": "cortante",
+    "weight": "3,5 kg",
+    "properties": "Pesada, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Machado de Batalha",
+    "value": "10 po",
+    "dice": "1d8",
+    "damage": "cortante",
+    "weight": "2 kg",
+    "properties": "Versátil (1d10)",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Malho",
+    "value": "10 po",
+    "dice": "2d6",
+    "damage": "concussão",
+    "weight": "5 kg",
+    "properties": "Pesada, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Mangual",
+    "value": "10 po",
+    "dice": "1d8",
+    "damage": "concussão",
+    "weight": "1 kg",
+    "properties": "",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Martelo de Guerra",
+    "value": "15 po",
+    "dice": "1d8",
+    "damage": "concussão",
+    "weight": "1 kg",
+    "properties": "Versátil (1d10)",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Picareta de Guerra",
+    "value": "5 po",
+    "dice": "1d8",
+    "damage": "perfurante",
+    "weight": "1 kg",
+    "properties": "",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Rapieira",
+    "value": "25 po",
+    "dice": "1d8",
+    "damage": "perfurante",
+    "weight": "1 kg",
+    "properties": "Acuidade",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Tridente",
+    "value": "5 po",
+    "dice": "1d6",
+    "damage": "perfurante",
+    "weight": "2 kg",
+    "properties": "Arremesso (6/18), versátil (1d8)",
+    "type": "marcial",
+    "favorite": false,
+    "range": "meele"
+  }, {
+    "name": "Arco Longo",
+    "value": "50 po",
+    "dice": "1d8",
+    "damage": "perfurante",
+    "weight": "1 kg",
+    "properties": "Munição (distância 45/180), pesada, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Besta de Mão",
+    "value": "75 po",
+    "dice": "1d6",
+    "damage": "perfurante",
+    "weight": "1,5 kg",
+    "properties": "Munição (distância 9/36), leve, recarga",
+    "type": "marcial",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Besta Pesada",
+    "value": "50 po",
+    "dice": "1d10",
+    "damage": "perfurante",
+    "weight": "4,5 kg",
+    "properties": "Munição (distância 30/120), pesada, recarga, duas mãos",
+    "type": "marcial",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Zarabatana",
+    "value": "10 po",
+    "dice": "1",
+    "damage": "perfurante",
+    "weight": "0,5 kg",
+    "properties": "Munição (distância 7,5/30), recarga",
+    "type": "marcial",
+    "favorite": false,
+    "range": "ranged"
+  }, {
+    "name": "Rede",
+    "value": "1 po",
+    "dice": "",
+    "damage": "–",
+    "weight": "1,5 kg",
+    "properties": "Especial, arremesso (distância 1,5/4,5)",
+    "type": "marcial",
+    "favorite": false,
+    "range": "ranged"
+  }]
