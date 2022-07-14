@@ -1,6 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import Home from '@/components/Home.vue'
+import Spells from '@/components/Spells'
+import Itens from '@/components/Itens'
+import Weapons from '@/components/itens/Armas'
+import Armour from '@/components/itens/Armaduras'
+import Packages from '@/components/itens/Pacotes'
+import DiceRoller from '@/components/tools/DiceRoller'
+import TurnTracker from '@/components/tools/TurnTracker'
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -8,35 +18,35 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: () => import('@/components/Home')
+      component: Home
     }, {
       path: '/spells',
       name: 'Magias',
-      component: () => import('@/components/Spells')
+      component: Spells
     }, {
       path: '/itens',
       name: 'Itens',
-      component: () => import('@/components/Itens')
+      component: Itens
     }, {
       path: '/armas',
       name: 'Armas',
-      component: () => import('@/components/itens/Armas')
+      component: Weapons
     }, {
       path: '/armaduras',
       name: 'Armaduras',
-      component: () => import('@/components/itens/Armaduras')
+      component: Armour
     }, {
       path: '/pacotes',
       name: 'Pacotes',
-      component: () => import('@/components/itens/Pacotes')
+      component: Packages
     }, {
       path: '/dice-roller',
       name: 'Dice Roller',
-      component: () => import('@/components/tools/DiceRoller')
+      component: DiceRoller
     }, {
       path: '/turn-tracker',
       name: 'Turn Tracker',
-      component: () => import('@/components/tools/TurnTracker')
+      component: TurnTracker
     }
   ]
 })

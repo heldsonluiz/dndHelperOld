@@ -31,7 +31,6 @@ Vue.component(
   'Loading', Loading
 )
 
-/* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,

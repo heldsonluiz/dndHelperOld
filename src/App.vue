@@ -37,8 +37,8 @@ export default {
         { name: 'itens', target: '/itens', icon: 'ico-chest' },
         { name: 'magias', target: '/spells', icon: 'ico-crystal' },
         { name: 'home', target: '/', icon: 'ico-castle' },
-        { name: 'dice roller', target: '/dice-roller', icon: 'ico-dice' },
-        { name: 'turn tracker', target: '/turn-tracker', icon: 'ico-death' }
+        // { name: 'dice roller', target: '/dice-roller', icon: 'ico-dice' },
+        // { name: 'turn tracker', target: '/turn-tracker', icon: 'ico-death' }
       ]
     }
   }
